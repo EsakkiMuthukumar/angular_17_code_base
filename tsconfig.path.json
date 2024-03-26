@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@type/*": ["src/app/shared/types/*"],
+      "@constant/*": ["src/app/shared/constants/*"],
+      "@enum/*": ["src/app/shared/enums/*"],
+      "@services/*": ["src/app/services/*"],
+      "@guard/*": ["src/app/shared/guard/*"]
+    }
+  }
+}
